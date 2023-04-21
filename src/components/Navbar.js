@@ -32,17 +32,21 @@ function Navbar() {
               <NavLink to="/Classes">
                 <li className="hamburger-item">Classes</li>
               </NavLink>
-              <NavLink to="/Classes/#Schedule">
+              <HashLink to="/Classes/#schedule">
                 <li className="hamburger-item">Schedule</li>
+              </HashLink>
+              <NavLink to="/Locations">
+                <li className="hamburger-item">Locations</li>
               </NavLink>
-              <li className="hamburger-item">Locations</li>
               <NavLink to="/Team">
                 <li className="hamburger-item">Our Team</li>
               </NavLink>
               <NavLink to="/Gallery">
                 <li className="hamburger-item">Gallery</li>
               </NavLink>
-              <li className="hamburger-item">Contact</li>
+              <HashLink to="/Locations/#contact">
+                <li className="hamburger-item">Contact</li>
+              </HashLink>
             </ul>
           ) : (
             ""

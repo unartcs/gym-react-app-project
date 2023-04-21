@@ -3,9 +3,9 @@ import { TbClock } from "react-icons/tb";
 import { BsPerson } from "react-icons/bs";
 import { CgGym } from "react-icons/cg";
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
-function ScheduleView({ activeDay, enableAnimate }) {
+function ScheduleView({ activeDay }) {
   return (
     <div className="active-day-wrapper">
       {/* <div className="active-day-box-header">
@@ -43,9 +43,9 @@ function ScheduleView({ activeDay, enableAnimate }) {
                     {item.trainer}
                   </p>
                 </div>
-                <NavLink to="/Contact">
+                <HashLink to="/Locations/#contact">
                   <h4 className="active-day-box-join-button">Join Now!</h4>
-                </NavLink>
+                </HashLink>
               </div>
             </motion.div>
           );
