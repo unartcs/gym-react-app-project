@@ -4,10 +4,13 @@ import { Element } from "react-scroll";
 import Home from "./Home";
 import About from "../components/About";
 import Classes from "./Classes";
-import Schedule from "./Schedule";
+import Schedule from "../components/Schedule";
 import { Route, Routes } from "react-router-dom";
 import Gallery from "./Gallery";
 import Team from "./Team";
+import Locations from "./Locations";
+import Contact from "../components/Contact";
+
 function Pages() {
   return (
     <div>
@@ -25,10 +28,12 @@ function Pages() {
         <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/#about" element={<Home a href='#about'/>} /> */}
-        <Route path="/Schedule" element={<Schedule />} />
+        {/* <Route path="/Schedule" element={<Schedule />} /> */}
         <Route path="/Classes" element={<Classes />} />
-        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/Locations" element={<Locations />} />
         <Route path="/Team" element={<Team />} />
+        <Route path="/Gallery" element={<Gallery />} />
+        {/* <Route path="/Contact" element={<Contact />} /> */}
         </Routes>
       </div>
     </div>

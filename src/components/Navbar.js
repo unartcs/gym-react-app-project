@@ -32,7 +32,7 @@ function Navbar() {
               <NavLink to="/Classes">
                 <li className="hamburger-item">Classes</li>
               </NavLink>
-              <NavLink to="/Schedule">
+              <NavLink to="/Classes/#Schedule">
                 <li className="hamburger-item">Schedule</li>
               </NavLink>
               <li className="hamburger-item">Locations</li>
@@ -61,17 +61,21 @@ function Navbar() {
           <NavLink to="/Classes">
             <li className="menu-item">Classes</li>
           </NavLink>
-          <NavLink to="/Schedule">
+          <HashLink to="/Classes/#schedule">
             <li className="menu-item">Schedule</li>
+          </HashLink>
+          <NavLink to="/Locations">
+            <li className="menu-item">Locations</li>
           </NavLink>
-          <li className="menu-item">Locations</li>
           <NavLink to="/Team">
             <li className="menu-item">Our Team</li>
           </NavLink>
           <NavLink to="/Gallery">
             <li className="menu-item">Gallery</li>
           </NavLink>
-          <li className="menu-item">Contact</li>
+          <HashLink to="/Locations/#contact">
+            <li className="menu-item">Contact</li>
+          </HashLink>
         </ul>
         <ul className="navbar-menu-socials">
           <li>

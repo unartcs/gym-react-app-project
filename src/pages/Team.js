@@ -4,7 +4,6 @@ import TeamData from "../data/TeamData";
 function Team() {
   return (
     <div className="team-wrapper">
-      <h1>Meet the team:</h1>
       <div className="team-grid-container">
         {TeamData.map((item) => {
           return (
