@@ -9,7 +9,7 @@ function Team() {
           return (
             <div
               className="team-grid-box"
-              style={{ backgroundImage: `url("/imgs/team/${item.image}")` }}
+              style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/imgs/team/${item.image}")` }}
             >
               <div className="team-info">
                 <h2 className="team-name">{item.name}</h2>

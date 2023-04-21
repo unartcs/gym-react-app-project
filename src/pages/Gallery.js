@@ -14,7 +14,7 @@ function Gallery() {
           {GalleryData.map((item) => {
             return (
               <div className="gallery-grid-box">
-                <img src={`/imgs/gallery/${item}`} alt="Gym" />
+                <img src={`${process.env.PUBLIC_URL}/imgs/gallery/${item}`} alt="Gym" />
               </div>
             );
           })}
