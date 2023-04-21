@@ -1,5 +1,6 @@
 <h1>A Gym application</h1>
-An application to display your gym brand
+An application to display your gym brand.
+Live version: https://unartcs.github.io/gym-react-app-project/
 <br/>
 <h2>Technologies used</h2>
 <ul>
