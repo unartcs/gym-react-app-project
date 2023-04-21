@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gym-react-app-project/static/css/main.91f9d301.css",
-    "main.js": "/gym-react-app-project/static/js/main.bcb92c4a.js",
+    "main.js": "/gym-react-app-project/static/js/main.0970c75a.js",
     "static/media/gym-hero-logo.jpg": "/gym-react-app-project/static/media/gym-hero-logo.5a075b600b8f8c10347e.jpg",
     "index.html": "/gym-react-app-project/index.html",
     "main.91f9d301.css.map": "/gym-react-app-project/static/css/main.91f9d301.css.map",
-    "main.bcb92c4a.js.map": "/gym-react-app-project/static/js/main.bcb92c4a.js.map"
+    "main.0970c75a.js.map": "/gym-react-app-project/static/js/main.0970c75a.js.map"
   },
   "entrypoints": [
     "static/css/main.91f9d301.css",
-    "static/js/main.bcb92c4a.js"
+    "static/js/main.0970c75a.js"
   ]
 }
