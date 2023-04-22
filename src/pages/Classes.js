@@ -27,7 +27,7 @@ function Classes() {
                     {item.time}
                   </h3>
                 </div>
-                <h4 className="class-button"><a href="#schedule">More Info</a></h4>
+                <h4 className="class-button"><a href="/#schedule">More Info</a></h4>
               </div>
             </div>
           );
