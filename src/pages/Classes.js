@@ -13,7 +13,7 @@ function Classes() {
           return (
             <div
               className="class-grid-box"
-              style={{ backgroundImage: `url("/imgs/classes/${item.image}")` }}
+              style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/imgs/classes/${item.image}")` }}
             >
               <div className="class-info-wrapper">
                 <h2 className="class-name">{item.name}</h2>

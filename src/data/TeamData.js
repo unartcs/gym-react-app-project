@@ -7,12 +7,12 @@ const TeamData = [
     {
         name: 'Jim',
         title: 'Spinning Master',
-        image: 'jim.jpg'
+        image: 'Jim.jpg'
     },
     {
         name: 'Natasha',
         title: 'Cardio Junkie',
-        image: 'Natasha.jpeg'
+        image: 'natasha.jpeg'
     },
     {
         name: 'Raymond',
@@ -22,7 +22,7 @@ const TeamData = [
     {
         name: 'Victoria',
         title: 'Personal Trainer',
-        image: 'Victoria.jpg'
+        image: 'victoria.jpg'
     },
 ]
 
