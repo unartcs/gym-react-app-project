@@ -4,6 +4,8 @@ import { TbClock } from "react-icons/tb";
 import { BsPerson } from "react-icons/bs";
 import Schedule from "../components/Schedule";
 import { Element } from "react-scroll";
+import { HashLink } from "react-router-hash-link";
+
 
 function Classes() {
   return (
@@ -13,7 +15,9 @@ function Classes() {
           return (
             <div
               className="class-grid-box"
-              style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/imgs/classes/${item.image}")` }}
+              style={{
+                backgroundImage: `url("${process.env.PUBLIC_URL}/imgs/classes/${item.image}")`,
+              }}
             >
               <div className="class-info-wrapper">
                 <h2 className="class-name">{item.name}</h2>
@@ -27,7 +31,10 @@ function Classes() {
                     {item.time}
                   </h3>
                 </div>
-                <h4 className="class-button"><a href="/#schedule">More Info</a></h4>
+
+                <HashLink to="/Classes/#schedule">
+                  <h4 className="class-button">More Info</h4>
+                </HashLink>
               </div>
             </div>
           );
